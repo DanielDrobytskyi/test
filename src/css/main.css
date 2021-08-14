@@ -256,12 +256,12 @@ Navbar
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-primary-5);
+  color: #FFD51A;
   cursor: pointer;
   transition: var(--transition);
 }
 .toggle-btn:hover {
-  color: var(--clr-primary-2);
+  color: #201F1E;
 }
 .nav-links {
   display: none;
@@ -307,7 +307,7 @@ Sidebar
 ===============
 */
 .sidebar {
-  background: var(--clr-grey-10);
+  background: #EEEEF1;
   position: fixed;
   top: 0;
   left: 0;
@@ -331,7 +331,7 @@ Sidebar
   display: block;
   text-align: center;
   text-transform: capitalize;
-  color: var(--clr-grey-5);
+  color: #000000;
   letter-spacing: var(--spacing);
   margin-bottom: 0.5rem;
   font-size: 2rem;
@@ -339,8 +339,8 @@ Sidebar
   border-radius: var(--radius);
 }
 .sidebar-links li a:hover {
-  background: var(--clr-primary-9);
-  color: var(--clr-primary-5);
+  background: #FFD51A;
+  color: #000000;
 }
 .close-btn {
   position: absolute;
@@ -349,7 +349,7 @@ Sidebar
   font-size: 2.5rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-red-dark);
+  color: #FFD51A;
   cursor: pointer;
 }
 @media screen and (min-width: 992px) {
@@ -515,7 +515,7 @@ Works
 ===============
 */
 .works-center {
-    display: flex;
+    display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     padding-left: 5rem;
@@ -527,12 +527,13 @@ Works
 .work-links {
     display: block;
     justify-content: flex-end;
+    text-align: center;
   }
 
 @media screen and (min-width: 1170px) {
   .work-links  {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
   
 }

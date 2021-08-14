@@ -8,8 +8,11 @@ const OurWorks = () => {
 		<section className="section ">
 			<Title title="Наши работы" />
 			<div className="works-center">
+				<div className="nav-header">
+				</div>
 				<WorkFilter styleClass="work-links">
 				</WorkFilter>
+
 			</div>
 			<div className="section-center services-center">
 				{works.map(service => {

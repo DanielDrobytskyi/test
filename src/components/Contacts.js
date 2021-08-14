@@ -2,6 +2,7 @@ import React from "react"
 
 
 const Contacts = () => {
+
 	return (
 		<section className="section bg-dark">
 			<article className="contact-form">
